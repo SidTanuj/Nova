@@ -1,0 +1,22 @@
+// Tanuj Siddharth
+
+The defined problem is solved in two platforms:
+
+
+|||| Microsoft Visual Studio C++ ||||
+
+Initial Coding and Test for the bare functions was performed on the Microsoft Visual C++. 
+The Debugging was easily performed and the code was functional. 
+
+Folder Name:
+
+
+
+|||| ESP 32 ||||
+
+Use of an actual microcontroller helps to understand the proceesing limitations of the functions selectively.
+
+The main functions and the selected libraries are attached in their respective folders
+
+
+Folder Name:
