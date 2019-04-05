@@ -26,6 +26,7 @@ Treat this problem as if the code is to be released to production and include an
 
 
 ************************** IMPLEMENTATION AND DISCUSSIONS **************************************************
+
 Part II 
 
 From your implementation of the above two functions (recursive and iterative), which would you use in an actual release?  For the version you wouldn’t choose, please include your reasons why you wouldn’t use it. 
