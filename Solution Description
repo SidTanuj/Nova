@@ -10,6 +10,7 @@ The Debugging was easily performed and the code was functional.
 
 Folder Name:
 
+Nova_Fibonacci_Calculator.zip
 
 
 |||| ESP 32 ||||
@@ -18,5 +19,56 @@ Use of an actual microcontroller helps to understand the proceesing limitations 
 
 The main functions and the selected libraries are attached in their respective folders
 
+Extract the following folder in libraries section of Arduino IDE and test with any microcontroller.
 
 Folder Name:
+
+Nova_Fibonacci.zip
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Project Conclusions:
+
+PART 1
+
+From your implementation of the above two functions (recursive and iterative), 
+which would you use in an actual release? For the version you wouldn’t choose, 
+please include your reasons why you wouldn’t use it.
+
+RESPONSE: 
+It is suggested not to use the recursive method as the scalling of the function 
+is limited to the memory of the devices on which the function is running. 
+
+It was concluded that the implementation on Visual studio could only perform
+recursive action for values upto 40 successfully.
+
+The ESP32 Microcontroller failed much before that.
+
+*******************************************************************************
+Is there any situation you can think of where you would use the ‘bad’ version?
+(might need to be a little creative here)
+
+RESPONSE:
+Certain continuous object tracking might require to use sensor input data to be 
+kept track of in order to calculate next robotic actions. 
+
+******************************************************************************
+
+PART III
+
+If you’re still enjoying this - what would you do to optimize the code?
+(think both for a single function call as well as over the long term)
+
+RESPONSE: Optimizing the code is helpful to test and develop on the learnings from 
+current code applications. It helps to make systematic decisions and not get lost 
+in the process.
+********************************************************************************************
+What’s the cost for doing so?
+
+RESPONSE: Time and Guideline enforcement
+
+********************************************************************************************
